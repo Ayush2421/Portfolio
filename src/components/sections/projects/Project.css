@@ -1,0 +1,11 @@
+.project{
+    width:100%;
+    padding: 20px;
+    border: 1px solid white;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    gap:25px;
+}

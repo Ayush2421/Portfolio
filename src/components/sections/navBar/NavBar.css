@@ -1,0 +1,30 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid white;
+    padding:0px 20px;
+}
+.navBar > img{
+    width: 80px;
+    height: 80px;
+    filter: drop-shadow(0px 0px 2px rgb(255, 255, 255) )
+}
+.navMenu{
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+}
+#navBarContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.anchor{
+    text-decoration: none;
+    color:var(--whiteColor);
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 0.8px white);
+}
+

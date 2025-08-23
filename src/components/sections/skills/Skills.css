@@ -1,0 +1,36 @@
+.skills{ 
+    width:100%;
+    padding: 20px;
+    border: 1px solid white;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    gap:25px;
+}
+
+.skills> p{
+    width:95%;
+    border: 1px solid white;
+    text-align: center; 
+}
+.skillsContent{
+    max-width: 95%;
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap:10px;
+    padding: 20px 50px;
+    border-radius:20px;
+}
+.skillsCard{
+    width:100px;
+    height:50px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center; 
+    border-radius:20px;
+    /* grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); */
+    gap:20px;
+}

@@ -1,0 +1,88 @@
+.contact{
+    width:100%;
+    padding: 20px;
+    /* border: 1px solid white; */
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    gap:25px;
+}
+.contactMeContent{
+    width:100%;
+    display: flex;
+}
+/* common for both LetsTalk and Form */
+.contactContainer{
+    width:40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    /* border: 1px solid white; */
+    text-align: left;
+    /* background: url("../../../assets/contact_img.svg");
+    background-repeat: no-repeat;
+    background-size: 80%; */
+}
+
+.letTalk> p{
+    margin: 25px 0px;
+    font-size: 14px;
+}
+.form{
+    width:60%;
+    display: flex;
+    align-items: center;
+}
+.mainForm{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formContainer{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    margin: 20px 0px;
+    font-size: 14px;
+}
+.formContainer>label{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.formContainer > input ,textarea{
+    padding: 8px;
+    margin: 8px 0px;
+    border-radius:10px;
+    /* background: linear-gradient(180deg, #dadada 0.3%, #a7a7a7 100.5%, #898989 0.3%); */
+    background: transparent;
+    border: 1px solid var(--whiteColor);
+    transition: 1s;
+    /* -webkit-transition: 0.5s; */
+    outline: none;
+}
+.formContainer > textarea {
+    height:100px;
+}
+.formContainer > input:focus ,textarea:focus{
+    border: 1px solid rgb(99, 1, 124);
+    /* background-color: red; */
+    background: linear-gradient(180deg, #dadada 0.3%, #a7a7a7 100.5%, #898989 0.3%);
+   
+}
+.submitForm{
+    width:100%;
+    padding: 10px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #DA7275 0.3%, #B923E1 100.5%);
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+.submitForm:hover{
+    transform: scale(1.05);
+}

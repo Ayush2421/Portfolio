@@ -1,0 +1,68 @@
+.underLineContainer{
+    display: flex;
+    position: relative;
+}
+.underLine{
+    width: 100%;
+    height: 3.2px;
+    background: linear-gradient(45deg, #DA7275 0.3%, #B923E1 100.5%);
+  }
+.underLineContainer>img{
+    position:absolute;
+    top:-6px;
+    right: -15px;
+    z-index: -10;
+    transform:rotate(7deg)
+}
+
+.noHeadingColored{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1.6px;
+    filter: drop-shadow(0px 0px 1.5px white);
+}
+.headingColored{
+    font-size: 30px;
+    font-weight: 800;
+    color: transparent;
+    background: linear-gradient(180deg, #DA7275 50%, #B923E1 100.5%);
+    background-size :cover;
+    background-clip: text;
+}
+
+
+
+#personalInfo{
+    display: flex;
+    gap:10px;
+    padding: 10px 0px;
+    align-items: center;
+    font-size: 80%;
+}
+#personalInfo> img{
+width: 15px;
+height: 15px;
+}
+
+
+/* connectWithMe */
+.connectWithMe{
+    padding: 5px 10px;
+    border-radius: 50px;
+    /* background: linear-gradient(45deg, #DA7275 0.3%, #B923E1 100.5%); */
+    background: linear-gradient(180deg, #dadada 0.3%, #a7a7a7 100.5%, #898989 0.3%);
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#connectWithMeLogo{
+    width: 30px;
+    height:30px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+#connectWithMeLogo:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
+}

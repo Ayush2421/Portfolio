@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root{
+  --blackColor: black;
+  --whiteColor: rgb(255, 255, 255);
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size:18px;
+}

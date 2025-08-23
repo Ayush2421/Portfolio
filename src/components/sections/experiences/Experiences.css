@@ -1,0 +1,42 @@
+.experiences{
+    width:100%;
+    padding: 20px;
+    border: 1px solid white;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    gap:25px;
+}
+.experiences> p{
+    width:95%;
+    text-align: center; 
+}
+.experiencesContent{
+    width:95%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.horizontalLine{
+    width:4px;
+    height: 500px;
+    background: linear-gradient(45deg, #DA7275 0.3%, #B923E1 100.5%);
+}
+.abc{
+    position: absolute;
+    width: 50%;
+    padding: 10px;
+}
+#left{
+    left:0px;
+}
+#right{
+    right:0px;
+}
+.experiencesCard{
+    width: 100%;
+    border: 1px solid white;
+}
