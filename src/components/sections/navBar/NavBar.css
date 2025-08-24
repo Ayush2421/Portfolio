@@ -1,30 +1,70 @@
-.navBar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border:1px solid white;
-    padding:0px 20px;
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border:1px solid white; */
+  padding: 0px 20px;
 }
-.navBar > img{
-    width: 80px;
-    height: 80px;
-    filter: drop-shadow(0px 0px 2px rgb(255, 255, 255) )
+.navBarLogo {
+  width: 80px;
+  height: 80px;
+  filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
 }
-.navMenu{
-    display: flex;
-    gap:20px;
-    list-style-type: none;
+.openImg {
+  display: none;
 }
-#navBarContent{
-    display: flex;
+.closeImg {
+  display: none;
+}
+.navMenu {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+#navBarContent {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.anchor {
+  text-decoration: none;
+  color: var(--whiteColor);
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 0.8px white);
+}
+@media (max-width: 768px) {
+  .openImg {
+    display: block;
+  }
+  .closeImg {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 200px;
+  }
+  .navMenu {
+    position: fixed;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: start;
+    top: 0;
+    gap: 30px;
+    right: -350px;
+    height: 100vh;
+    width: 250px;
+    display: flex;
+    z-index: 2;
+    background-color: rgb(50, 9, 88);
+    transition: right 1s;
+  }
+  #navBarContent {
+    font-size: 22px;
+    flex-direction: row;
+    padding-left: 20px;
+    gap: 15px;
+  }
+  .connectContainer {
+    display: none;
+  }
 }
-.anchor{
-    text-decoration: none;
-    color:var(--whiteColor);
-    cursor: pointer;
-    filter: drop-shadow(0px 0px 0.8px white);
-}
-
