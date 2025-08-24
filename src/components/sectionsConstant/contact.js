@@ -6,6 +6,6 @@ import location from '../../assets/contact_logo/location.svg';
 export const ContactInfo = [
       { name: 'Mail', logo: mail , text:"ayush2421gupta@gmail.com" },
       { name: 'Call', logo: call , text:"+91 8076440462"},
-      { name: 'Location', logo: location, flag: india_flag, text:"text" },
+      { name: 'Location', logo: location, flag: india_flag, text:"India" },
 ];
  

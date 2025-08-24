@@ -13,8 +13,8 @@ export default function Experiences() {
                 {
                     ExperiencesInfo.map((element, i) =>
                         <div className="abc" key={i} 
-                        id={i%2===0? "left":"right"}
-                        style={{top:`${i*250}px`}}>
+                        id={i%2===0? "left":"right"}>
+                         {/* style={{top:`${i*250}px`}}> */}
                             <ExperiencesCard expInfoData={element} />
                         </div>
                     )
