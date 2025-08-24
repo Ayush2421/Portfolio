@@ -1,4 +1,4 @@
-import heading_underline from "../../assets/heading_underline.svg"
+import { CommonInfo } from "../sectionsConstant/common"
 import "./CommonFile.css"
 export default function PageHeading(props) {
   return (
@@ -7,7 +7,7 @@ export default function PageHeading(props) {
         <h2  className={props.colored ? "headingColored": "noHeadingColored" }>{props.title}</h2>
         <div className="underLineContainer">
           <div className="underLine"></div>
-          <img src={heading_underline} />
+          <img src={CommonInfo.headingLineImg} />
         </div>
       </div>
       {!props.colored? <p>A collection of techinal skills and experties through various project</p> :null}

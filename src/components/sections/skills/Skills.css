@@ -1,7 +1,6 @@
 .skills{ 
     width:100%;
     padding: 20px;
-    border: 1px solid white;
     display: flex;  
     flex-direction: column;
     justify-content: center;
@@ -9,15 +8,12 @@
     text-align: center;
     gap:25px;
 }
-
 .skills> p{
     width:95%;
-    border: 1px solid white;
     text-align: center; 
 }
 .skillsContent{
     max-width: 95%;
-    border: 1px solid white;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap:10px;
@@ -27,10 +23,31 @@
 .skillsCard{
     width:100px;
     height:50px;
-    border: 1px solid white;
+    border: 2px solid violet;
     display: flex;
     align-items: center; 
-    border-radius:20px;
-    /* grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); */
-    gap:20px;
+    border-radius:15px;
+    background: linear-gradient(145deg, #DA7275 50%, #B923E1 100.5%);
+    transition: 0.2s;
+    cursor:pointer;
+}
+.skillsCard:hover{
+    transform: scale(1.05);
+}
+.skillsCardImg{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.skillsCardImg>img{
+    width: 25px;
+    height:25px;
+}
+.skillsCardText{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center; 
 }

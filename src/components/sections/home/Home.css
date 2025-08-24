@@ -35,14 +35,24 @@
     font-size: 35px;
     gap:5px;
 }
-.gradientEmoji{
-    animation: emoji 2s ease-in  infinite;
+.gradientEmoji {
+  display: inline-block;
+  margin: 0 6px;
+  font-size: 2rem;
+  vertical-align: middle;     /* keeps it aligned with text */
+  animation: wave 2s infinite;
+  transform-origin: 70% 70%;  /* pivot at the wrist */
 }
-@keyframes emoji{
-0%{ rotate: 0deg;}
-50%{rotate: 75deg;}
-100%{rotate: 0deg;}
-}
+  @keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); } /* reset */
+    100% { transform: rotate(0deg); }
+  }
 .developerName{
     text-transform: uppercase;
     color: transparent;
@@ -62,6 +72,7 @@
     cursor: pointer;
     transition: 0.3s;
     text-align: center;
+    box-shadow: 0px 0px 8px violet;
 }
 .resumeBtn:hover{
     transform: scale(1.05);

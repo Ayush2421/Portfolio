@@ -25,12 +25,10 @@
     font-size: 30px;
     font-weight: 800;
     color: transparent;
-    background: linear-gradient(180deg, #DA7275 50%, #B923E1 100.5%);
+    background: linear-gradient(145deg, #DA7275 50%, #B923E1 100.5%);
     background-size :cover;
     background-clip: text;
 }
-
-
 
 #personalInfo{
     display: flex;
