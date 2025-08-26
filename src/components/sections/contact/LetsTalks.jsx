@@ -6,7 +6,6 @@ export default function LetsTalk(){
     
     return (
         <div className="letTalk contactContainer">
-        {/* <h1>Let's Talk</h1> */}
         <PageHeading title={"Let's Talk"} colored={true} />
         <p>I am currently avaliable to take on new projects, so feel free to send me a message 
         about anything that you want me to work on. You can contact anytime.</p>

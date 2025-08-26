@@ -22,7 +22,7 @@
 }
 .horizontalLine{
     width:4px;
-    height: 500px;
+    height: 700px;
     background: linear-gradient(45deg, #DA7275 0.3%, #B923E1 100.5%);
 }
 .abc{
@@ -58,7 +58,7 @@
     height: 80px;
 }
 .eCardHeadingsContents{
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -66,13 +66,14 @@
     margin: 0px 5px;
     gap:5px;
     letter-spacing: 1px;
+    font-size: 20px;
 }
 
 .dateRow{
     width:100%;
     position: absolute;
     bottom: 0;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     display: flex;
     justify-content: space-between;
@@ -87,16 +88,19 @@
     display: flex;
     flex-direction: column;
     text-align: start;
-    font-size: 12px;
     margin-top: 20px;
     gap:10px;
     padding: 0px 5px;
 }
 .eCardContent> i{
+    font-size: 16px;
+    font-weight: 700px;
+    letter-spacing: 1px;
     text-decoration: underline;
 
 }
 .eCardContentList>li{
-    list-style-type: none;
+    font-size: 18px;
+   list-style-type: none;
    margin-bottom:5px ;
 }

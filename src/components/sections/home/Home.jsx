@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <img src={CommonInfo.devPic} alt="Ayush_photo"></img>
       </div>
-      <div className="resumeBtn">My Resume</div>
+      <button className="resumeBtn">My Resume</button>
     </section>
   )
 }
