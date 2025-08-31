@@ -8,4 +8,6 @@ export const ContactInfo = [
       { name: 'Call', logo: call , text:"+91 8076440462"},
       { name: 'Location', logo: location, flag: india_flag, text:"India" },
 ];
- 
+ export const letTalkInfo = {
+      text: "I am currently avaliable to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.",
+ }

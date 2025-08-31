@@ -1,14 +1,13 @@
 import PersonalInfo from "../../common/personalInfo"
 import PageHeading from "../../common/PageHeading"
-import { ContactInfo } from "../../sectionsConstant/contact"
+import { ContactInfo, letTalkInfo } from "../../sectionsConstant/contact"
 
 export default function LetsTalk(){
     
     return (
         <div className="letTalk contactContainer">
         <PageHeading title={"Let's Talk"} colored={true} />
-        <p>I am currently avaliable to take on new projects, so feel free to send me a message 
-        about anything that you want me to work on. You can contact anytime.</p>
+        <p>{letTalkInfo.text}</p>
         {
             ContactInfo.map((element)=>{
                 return <div key={element.name}>

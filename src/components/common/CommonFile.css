@@ -68,3 +68,13 @@ height: 15px;
     transform: scale(1.1);
     filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 }
+
+@media (max-width: 556px) {
+    .pageHeading>h2{
+          font-size: 30px;
+    }
+.pageHeading>h2::first-letter{
+  font-size: 45px;
+    }
+
+}

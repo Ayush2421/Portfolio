@@ -9,6 +9,11 @@
     text-align: center;
     gap:25px;
 }
+.project> p{
+    width:75%;
+    text-align: center; 
+    /* border: 1px solid white; */
+}
 .projectContent{
     max-width: 100%;
     display: grid;
@@ -77,4 +82,17 @@
     height: 100%;
     opacity: 1;
     box-shadow: 0px 0px 15px violet;
+}
+
+@media (max-width: 768px) {
+.project> p{
+    width:95%;
+}
+}
+
+@media (max-width: 556px) {
+.project > p {
+  font-size: 16px;
+}
+
 }

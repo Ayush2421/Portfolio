@@ -10,8 +10,9 @@
     gap:25px;
 }
 .experiences> p{
-    width:95%;
+    width:75%;
     text-align: center; 
+    /* border: 1px solid white; */
 }
 .experiencesContent{
     width:95%;
@@ -43,15 +44,14 @@
     padding:10px;
     border-radius:10px;
     /* border: 1px solid white; */
-    /* box-shadow: 10px 5px 5px red; */
-    box-shadow: 0px 0px 10px violet;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    box-shadow: 0px 0px 20px violet;
 }
 /******************************* eCardHeadings ************************/
 .eCardHeadings{
     width:100%;
     display: flex;
     align-items: top;
+    gap:5px;
 }
 .eCardHeadings > img{
     width: 80px;
@@ -61,12 +61,12 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     position: relative;
     margin: 0px 5px;
-    gap:5px;
+    gap:2px;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .dateRow{
@@ -100,7 +100,50 @@
 
 }
 .eCardContentList>li{
-    font-size: 18px;
+   font-size: 18px;
    list-style-type: none;
    margin-bottom:5px ;
+}
+
+@media (max-width: 768px) {
+ .experiences> p{
+    width:95%;
+}
+.eCardHeadings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eCardHeadingsContents{
+    height: 80px;
+}
+.eCardContentList>li{
+   font-size: 16px;
+}
+
+}
+
+@media (max-width: 556px) {
+.experiences > p {
+  font-size: 16px;
+}
+.horizontalLine{
+    width:0px;
+    height: 900px;
+}
+.abc{
+    width: 100%;
+}
+}
+
+@media (max-width: 390px) {
+.eCardContentList>li{
+   font-size: 14px;
+}
+}
+
+@media (max-width: 330px) {
+.horizontalLine{
+    height: 1000px;
+}
 }

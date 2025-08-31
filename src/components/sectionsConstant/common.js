@@ -13,3 +13,9 @@ export const CommonInfo = {
       devPic: ayush,
       headingLineImg: heading_underline,
 };
+
+export const PageHeadingInfo = {
+      SKILLS: "Showcase of the technical skills and expertise I have developed across a variety of real-world projects.",
+      EXPERIENCES: "A collection of my work and experience, I have worked with the organizations",
+      PROJECTS: "A collection of projects demonstrating my proficiency and experience across multiple technologies."
+}

@@ -2,7 +2,7 @@ import { ConnectWithMeInfo } from "../sectionsConstant/common"
 
 export default function ConnectWithMe() {
   const handleConnectWithMeLogo = (evt) => {
-    (evt.target.name === "linkedIn_logo") ?
+    (evt.target.name === "LinkedIn") ?
       window.open("https://www.linkedin.com/in/ayush2421gupta", "_blank")
       : window.open("https://github.com/Ayush2421", "_blank")
   }
