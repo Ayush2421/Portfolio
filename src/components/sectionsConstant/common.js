@@ -1,7 +1,7 @@
 import linkedIn from '../../assets/common_logo/linkedIn.png';
 import git from '../../assets/common_logo/git.png';
 import heading_underline from '../../assets/common_logo/heading_underline.svg';
-import ayush from '../../assets/common_logo/ayush.jpg';
+import ayush from '../../assets/common_logo/ayush.png';
 
 
 export const ConnectWithMeInfo = [

@@ -55,7 +55,7 @@
     width: 250px;
     display: flex;
     z-index: 2;
-    background-color: rgb(50, 9, 88);
+    background-color: #2d162a;
     transition: right 1s;
   }
   #navBarContent {
