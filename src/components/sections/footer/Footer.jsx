@@ -1,7 +1,6 @@
 import ConnectWithMe from "../../common/ConnectWithMe";
 import "./Footer.css"
-import logo from "../../../assets/logo.png"
-import PageHeading from "../../common/PageHeading";
+import portFolio_Logo from "../../../assets/portFolio_Logo.png"
 import { CommonInfo } from "../../sectionsConstant/common";
 
 export default function Footer() {
@@ -10,7 +9,7 @@ export default function Footer() {
             <hr />
             <div className="footerContent">
             <div className="footerLeft">
-                 <img src={logo} alt="logo"/>
+                 <img src={portFolio_Logo} alt="portFolio_Logo"/>
                 <p>© 2025 {CommonInfo.devName}. All rights reserved.</p>
             </div>
             <div className="footerRight">
