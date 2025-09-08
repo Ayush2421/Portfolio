@@ -96,11 +96,11 @@
   font-size: 16px;
 }
 .projectContent{
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap:30px;
 }
 .projectCard{
-    width: 200px;
+    width: 220px;
     height: 150px;
 }
 .projectCardText> h5{
