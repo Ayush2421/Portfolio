@@ -1,4 +1,4 @@
-import PortfolioImg from '../../assets/projects_Img/PortfolioImg.png';
+import Portfolio_Img from '../../assets/projects_Img/Portfolio_Img.png';
 import Google_Gemini from '../../assets/projects_Img/Google_Gemini.png';
 import Pokemon_Card from '../../assets/projects_Img/Pokemon_Card.png';
 import Roll_A_Dice from '../../assets/projects_Img/Roll_A_Dice.png';
@@ -6,7 +6,7 @@ import Treasure_Of_The_Oracle from '../../assets/projects_Img/Treasure_Of_The_Or
 import Wild_Krakatoa from '../../assets/projects_Img/Wild_Krakatoa.png';
 
 export const ProjectInfo =  [   
-{ name: 'Portfolio', image: PortfolioImg, heading:"Portfolio", 
+{ name: 'Portfolio', image: Portfolio_Img, heading:"Portfolio", 
     text:"I designed and developed a fully responsive personal portfolio website using React.js to showcase my skills, projects, and experience as a software developer." },
 { name: 'Wild_Krakatoa', image: Wild_Krakatoa, heading:"Wild Krakatoa", 
     text:"Built a cross-platform slot game in typeScript for a client project, featuring like loading page, paytable, base game, free spins, and other key gameplay elements for an engaging user experience." },
