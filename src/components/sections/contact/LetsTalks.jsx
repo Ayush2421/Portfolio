@@ -1,4 +1,4 @@
-import PersonalInfo from "../../common/personalInfo"
+import PersonalInfo from "../../common/personalInfo.jsx"
 import PageHeading from "../../common/PageHeading"
 import { ContactInfo, letTalkInfo } from "../../sectionsConstant/contact"
 
