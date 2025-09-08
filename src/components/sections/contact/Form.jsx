@@ -15,10 +15,7 @@ export default function Form() {
     }
     //need to uncomment
     const onSubmit = async (event) => {
-        setFormValue(obj);
-        alert("Form Submitted Successfully")
         event.preventDefault()
-        return;
         const formData = new FormData(event.target);
         formData.append("access_key", "f0eb00dc-6863-46be-b296-b5a72dc4b341");
         const object = Object.fromEntries(formData);
