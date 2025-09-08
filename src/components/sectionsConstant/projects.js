@@ -1,9 +1,9 @@
-import PortfolioImg from '../../assets/projects/PortfolioImg.png';
-import Google_Gemini from '../../assets/projects/Google_Gemini.png';
-import Pokemon_Card from '../../assets/projects/Pokemon_Card.png';
-import Roll_A_Dice from '../../assets/projects/Roll_A_Dice.png';
-import Treasure_Of_The_Oracle from '../../assets/projects/Treasure_Of_The_Oracle.png';
-import Wild_Krakatoa from '../../assets/projects/Wild_Krakatoa.png';
+import PortfolioImg from '../../assets/projects_Img/PortfolioImg.png';
+import Google_Gemini from '../../assets/projects_Img/Google_Gemini.png';
+import Pokemon_Card from '../../assets/projects_Img/Pokemon_Card.png';
+import Roll_A_Dice from '../../assets/projects_Img/Roll_A_Dice.png';
+import Treasure_Of_The_Oracle from '../../assets/projects_Img/Treasure_Of_The_Oracle.png';
+import Wild_Krakatoa from '../../assets/projects_Img/Wild_Krakatoa.png';
 
 export const ProjectInfo =  [   
 { name: 'Portfolio', image: PortfolioImg, heading:"Portfolio", 
