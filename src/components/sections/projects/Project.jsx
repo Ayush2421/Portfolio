@@ -1,7 +1,7 @@
 import PageHeading from "../../common/PageHeading"
 import "./Project.css"
 import ProjectCard from "./ProjectCard"
-import { ProjectInfo } from "../../sectionsConstant/projects"
+import { ProjectInfo } from "../../sectionsConstant/projects.js"
 
 export default function Project() {
     return (
